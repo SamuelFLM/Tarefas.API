@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Task.API.Models
 {
-    public class UpdateTaskInputModel
+    public record UpdateTaskInputModel (bool Status)
     {
         
     }

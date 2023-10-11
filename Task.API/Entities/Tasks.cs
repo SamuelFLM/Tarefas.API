@@ -19,6 +19,7 @@ namespace Task.API.Entities
         public string Title { get; set; }
         public string Description { get; private set; }
         public bool Status { get; set; }
+        public DateTime RegistrationDate { get; set; }
         public DateTime DeadLine { get; private set; }
 
         public void Update(bool status)

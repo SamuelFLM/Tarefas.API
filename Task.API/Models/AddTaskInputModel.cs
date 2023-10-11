@@ -5,8 +5,13 @@ using System.Threading.Tasks;
 
 namespace Task.API.Models
 {
-    public class AddTaskInputModel
+    public record AddTaskInputModel(
+        string Title,
+        string Description,
+        bool Status,
+        DateTime DeadLine
+    )
     {
-        
+
     }
 }
