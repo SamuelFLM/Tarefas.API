@@ -14,6 +14,7 @@ namespace Task.API.Entities
             Description = description;
             Status = status;
             DeadLine = deadLine;
+            RegistrationDate = DateTime.Now;
         }
         public int Id { get; private set; }
         public string Title { get; set; }
