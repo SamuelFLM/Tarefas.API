@@ -1,6 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using Task.API.Persistence;
+using Task.API.Persistence.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<TaskContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
+
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
