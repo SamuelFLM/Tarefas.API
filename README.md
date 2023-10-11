@@ -24,7 +24,7 @@ DELETE /tasks/{id}: Exclui uma tarefa específica.
 
 </p>
 
-## Quantidade de testes aprovados até o momento:
+## API e Documentação no Swagger:
 
-<img src="Imagens/tests.png" alt="logo_samuelflm">
+<img src="Imagens/task.png" alt="logo_samuelflm">
 
