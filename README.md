@@ -1,11 +1,13 @@
 <img src="Imagens/logo.png" alt="logo_samuelflm">
 
 
-# API TASK - .NET 7, Entity FrameWork Core e Padrão Repository
+# .NET 7, Entity FrameWork Core e Padrão Repository
+
+API de Tarefas
+
 
 ## Desafio de projeto
 <p>
-API de Tarefas
 
 Esta API permitirá aos usuários criar, ler, atualizar e excluir tarefas. Aqui estão alguns endpoints que você pode considerar:
 
