@@ -1,7 +1,7 @@
 <img src="Imagens/logo.png" alt="logo_samuelflm">
 
 
-# .NET 7, Entity FrameWork Core e Padrão Repository
+# .NET 7, Entity FrameWork Core e Design Patter Repository
 
 API de Tarefas
 
