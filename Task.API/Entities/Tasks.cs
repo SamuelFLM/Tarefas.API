@@ -7,10 +7,23 @@ namespace Task.API.Entities
 {
     public class Tasks
     {
+        public Tasks() { }
+        public Tasks(string title, string description, bool status, DateTime deadLine)
+        {
+            Title = title;
+            Description = description;
+            Status = status;
+            DeadLine = deadLine;
+        }
         public int Id { get; private set; }
         public string Title { get; set; }
         public string Description { get; private set; }
         public bool Status { get; set; }
-        public DateTime Prazo { get; private set; }
+        public DateTime DeadLine { get; private set; }
+
+        public void Update(bool status)
+        {
+            Status = status;
+        }
     }
 }
